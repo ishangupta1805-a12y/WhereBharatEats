@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curated Eats | Top Restaurant Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🍽️ Curated Eats</h1>
+        <p>Discover the absolute best places to dine</p>
+    </header>
+
+    <main>
+        <!-- Filter Tabs -->
+        <div class="tabs">
+            <button class="tab-btn active" onclick="filterRestaurants('highly-rated')">⭐ Highly Rated</button>
+            <button class="tab-btn" onclick="filterRestaurants('popular')">🔥 Most Popular</button>
+            <button class="tab-btn" onclick="filterRestaurants('healthy')">🥗 Most Healthy</button>
+        </div>
+
+        <!-- Restaurant Grid -->
+        <section id="restaurant-grid" class="grid">
+            <!-- Dynamic content injected here by JavaScript -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Curated Eats. Hosted with ❤️ on GitHub.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
